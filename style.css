@@ -8,21 +8,20 @@ body {
 
 .navbar {
   position: fixed;
+  display: flex;
   top: 0px;
   left: 0px;
   right: 0px;
   background-color: #c08552;
   height: 3%;
-  /* border-radius: 30px; */
-  /* border: 2px solid #fff8f0; */
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   padding: 3px;
   text-align: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 h1 {
   color: #fff8f0;
-  /* font-size: 50px; */
-  text-align: center;
 }
