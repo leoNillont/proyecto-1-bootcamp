@@ -1,0 +1,78 @@
+/*
+*   NAVBAR, no completado, aun está sucio 
+*/
+
+body {
+  background-color: #4b2e2b;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #c08552;
+  height: 3%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+h1 {
+  color: #fff8f0;
+}
+
+ @font-face {
+            font-family: "Open Sans";
+            src: url("fuentes/arial")
+            
+        }
+
+
+        body {
+            img src:"IMG_1.jpg";
+            font-family: "Open Sans";
+            font-size: 16px;
+            color:white;
+            background-color: #ee0689be;
+        }
+
+        label {
+            font-family: "arial";
+            font-size: 10px;
+        }
+
+        p {
+            font-family: "arial";
+            font-size: 12px;
+
+        }
+
+        .contenedor{
+            font-family: "italiana", serif;
+            widht:80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .sobre{
+            width: 34px;
+            height: 34px;
+            background-image: url("img/sociales2.png");
+            background-position: left top;
+        }
+        .sobre:hoover{
+            background-position: left -75px; ;
+
+            }
+        h1{
+            font-size: 40px;
+            margin-top: 25px;
+            letter-spacing: 1px;
+
+
+        }
+        
