@@ -1,0 +1,212 @@
+body{
+    
+    background: linear-gradient(to bottom, #f5e6d3, #ffffff);
+    margin:0;
+    font-family: arial, helvetica, sans-serif;
+}
+.en_linea{
+ display: inline-block;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ border-radius: 20px;
+}
+
+header{
+    background-color:#8B674F;
+    padding: 20px;
+    text-align: center;
+}
+#logo{
+vertical-align: middle;
+text-align: center; 
+
+#contenedor{
+    font:"Montserrat", sans-serif;
+    font-size: 12px;
+    padding: 10px 15px;
+    display: inline-block;
+
+}
+
+}
+
+#titulo_empresa{
+    text-align: center;
+    width: calc(100% - 93px - 1em);
+    font-family: Verdana;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#482B18;
+    text-shadow: 1px 1px 1px black;
+    
+
+}
+
+#encabezado{
+    text-align: center;
+    padding: 20px;
+    width: calc(100% - 93px -1em);
+    color:#BF0D1B;
+    text-shadow: 1px 1px 1px black;
+ 
+
+}
+h1{ 
+    color:#784634;
+
+}
+
+h3{
+    color:whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    
+   
+}
+
+
+
+article{
+    
+
+    width: 60%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section{
+    text-align: justify;
+
+}
+#seccion_testimonios{
+    padding: 40px;
+}
+#seccion_testimonios>h4{
+    background-color:thistle ;
+    color: black;
+    padding: 5px;}
+
+#section_testimonios{    
+    background-color: #8B674F;
+    border: 2px solid black;
+    border-radius: 10px;       
+    padding: 10px;             
+    max: width 5px;         
+    margin: 20px auto;         
+    font-family: Arial, sans-serif;
+    width: 1000
+    margin: 0;
+
+}
+
+#seccion_testimonios>p{
+    column: 2;
+    column-gap: 50px;
+    text-align: justify;
+ 
+}
+#seccion_imagen{
+    background-image: url(../imagenes/imagen2.png);
+    background-repeat: no repeat;
+    background-size: cover;
+
+    height: 100px;
+    margin-bottom: 25px;
+
+}
+#seccion_pedido{
+    text-align: center;
+
+}
+
+#boton_regalar{
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    background: linear-gradient(135deg, #6b3e26, #a9744f);
+    color: #fff;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 5px 10px fuchsia;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+
+}
+
+
+button{
+
+     background: linear-gradient(135deg, #c4a15d, #a3833a);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+   
+
+}
+
+
+#boton_regalar:hover{
+    background-color: linear-gradient(135deg, #8b5e3c, #c08a5c);
+    color: white;
+    transform: rotate(5deg);
+}
+
+
+
+p{
+    text-align: justify;
+    color: #ffffff;
+
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+
+}
+.contenedor img{
+    width: 450px;
+}
+.seccion {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.seccion img{
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+footer{
+    text-align: center;
+    font-family: "Comic Sans Ms";
+    color: aliceblue;
+
+    background-color: black;
+
+    margin-top: 25px;
+    padding: 50px;
+    border-radius: 150px;
+
+}
